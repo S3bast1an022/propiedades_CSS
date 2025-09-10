@@ -1,0 +1,70 @@
+/* Estilos generales para la tabla */
+table {
+    width: 100%; /*ocupe toda la pantalla*/
+    border-collapse: collapse; /*los bordes se unan*/
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff9100;
+}
+
+td {
+    background-color: #bdfdff;
+}
+
+/* Ajustar el tamaño de las imágenes en la tabla */
+img {
+    width: 270px;
+    height: auto;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #1a73e8;
+    text-decoration: none; /*quita lo subrayado del hipervinculo*/
+}
+
+a:hover {
+    text-decoration: underline; /*efecto visual que pone la linea cuando el cursor pasa sobre ellos*/
+}
+
+/* Estilos para el Footer */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 10px 0; /* Espaciado arriba y abajo */
+    position: fixed; /* Fija el pie al fondo */
+    bottom: 0; /* Alineado al fondo de la página */
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+}
+
+footer p {
+    margin: 0; /* Elimina margen de los párrafos */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+
+/* Estilos para el Header */
+header {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 25px 0; /* Espaciado en la parte superior e inferior */
+    border-radius: 15px;
+}
+
+header h1 {
+    margin: 0; /* Elimina márgenes del título */
+    font-size: 36px; /* Tamaño grande para el título */
+}
+
